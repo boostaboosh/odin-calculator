@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="calculator.js" defer></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="display"></div>
+            <div class="button-pad">
+                <div class="pad number-pad">
+                    <div class="button-row" id="top-row">
+                        <button class="button number" id="1">1</button>
+                        <button class="button number" id="2">2</button>
+                        <button class="button number" id="3">3</button>
+                    </div>
+                    <div class="button-row" id="middle-row">
+                        <button class="button number" id="4">4</button>
+                        <button class="button number" id="5">5</button>
+                        <button class="button number" id="6">6</button>
+                    </div>
+                    <div class="button-row" id="bottom-row">
+                        <button class="button number" id="7">7</button>
+                        <button class="button number" id="8">8</button>
+                        <button class="button number" id="9">9</button>
+                    </div>
+                    <div class="button-row" id="zero-row">
+                        <button class="button" id=""></button>
+                        <button class="button number" id="0">0</button>
+                        <button class="button" id="decimal-point"></button>
+                    </div>
+                </div>
+                <div class="pad operation-pad">
+                    <button class="button calculator-action" id="clear">clear</button>
+                    <button class="button operator" id="addition">+</button>
+                    <button class="button operator" id="subtraction">-</button>
+                    <button class="button operator" id="multiplication">x</button>
+                    <button class="button operator" id="division">%</button>
+                    <button class="button calculator-action" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

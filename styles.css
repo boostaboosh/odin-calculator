@@ -1,0 +1,52 @@
+.calculator {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: stretch;
+}
+
+.display {
+    flex: 1 1 0;
+    border: 5px solid rgba(30, 30, 30, 1);
+    background-color: rgba(0, 0, 255, 0.3);
+    font: 800 5em "Helvetica", sans-serif;
+    text-align: end;
+}
+
+.button-pad {
+    flex: 5 1 0;
+    display: flex;
+}
+
+.number-pad {
+    flex: 3;
+    display: flex;
+    flex-direction: column; 
+}
+
+.operation-pad {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.button-row {
+    flex: 1 1 auto;
+    display: flex;
+    /* border: 1px solid red */
+}
+
+.button {
+    flex: 1 1 0;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    font: 750 1.5em "Arial", sans-serif;
+    cursor: pointer; /* changes cursor to hand on buttons */
+}
+
+.button:active { /* when the button is clicked */
+    background-color: rgba(0, 0, 0, 0.7);
+}
